@@ -8,7 +8,6 @@ const searchWord = e => {
 	resoult = resoult.filter(res => res.textContent.toLowerCase().includes(currentWord));
 	portfolio.textContent = '';
 	resoult.forEach(name => portfolio.appendChild(name));
-	console.log(resoult)
 }
 
 searchInput.addEventListener('input', searchWord);
