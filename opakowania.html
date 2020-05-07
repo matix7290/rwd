@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="strona zawiera portfolio">
+    <meta name="author" content="Mateusz Olszewski">
+  
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  
+  
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+  
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <header class="header">
+              <div class="logo">
+                <h1>Piotr Niewiadomski</h1>
+              </div>
+            </header>
+              <form class="nav">
+                <div class="nav-element">
+                  <input class="nav-menu" id="all" type="radio" name="filter" onclick="location.href='index.html';"/>
+                  <label for="all">All</label>
+                </div>
+              
+                <div class="nav-element">
+                  <input class="nav-menu"  id="illustrations" type="radio" name="filter" onclick="location.href='ilustracje.html';"/>
+                  <label for="illustrations">Illustrations</label>
+                </div>
+        
+                <div class="nav-element">
+                  <input class="nav-menu" id="posters" type="radio" name="filter" onclick="location.href='plakaty.html';"/>
+                  <label class="nav-menu" for="posters">Posters</label>
+                </div>
+        
+                <div class="nav-element">
+                  <input class="nav-menu" id="typography" type="radio" name="filter" onclick="location.href='typografia.html';"/>
+                  <label for="typography">Typography</label>
+                </div>
+        
+                <div class="nav-element">
+                  <input class="nav-menu" id="packaging" type="radio" name="filter" onclick="location.href='opakowania.html';" checked="checked"/>
+                  <label for="packaging">Boxes</label>
+                </div>
+
+                <input type="text" id="szukaj" placeholder="Search">
+              </form>
+          </div>
+    
+          <section class="portfolio grid-container">
+            <figure class="all" data category="opakowania">
+              <a href="images/pack-1.jpg" target="_blank"><img class="img" src="images/pack-1.jpg" alt=""></a>
+              <figcaption>
+                <h4>The Lord of the Rings: The Fellowship of the Ring - Game Box</h4>
+                <p>Graphic made for the GameBoy Advance game</p>
+              </figcaption>
+            </figure>
+        
+            <figure class="all" data category="opakowania">
+              <a href="images/pack-2.jpg" target="_blank"><img class="img" src="images/pack-2.jpg" alt=""></a>
+              <figcaption>
+                <h4>The Lord of the Rings: The Two Towers - Game Box</h4>
+                <p>Graphic made for the GameBoy Advance game</p>
+              </figcaption>
+            </figure>
+        
+            <figure class="all" data category="opakowania">
+              <a href="images/pack-3.jpg" target="_blank"><img class="img" src="images/pack-3.jpg" alt=""></a>
+              <figcaption>
+                <h4>The Lord of the Rings: The Return of the King - Game Box</h4>
+                <p>Graphic made for the GameBoy Advance game</p>
+              </figcaption>
+            </figure>
+          </section>
+    
+      <div class="twelve columns foot">
+        <footer class="footer">
+          <div class="contact">
+            <ul>
+            <li class="contact-name">Piotr Niewiadomski</li>
+            <li class="contact-phone">(+48) 600-700-800</li>
+            <li class="contact-email">piotrek@niewiadomski.pl</li>
+            </ul>
+          </div>
+    
+          <p class="copyright">2020 &copy; Piotr Niewiadomski</p>
+    
+          <div class="social">
+            <ul>
+            <li class="social-dribbble">
+            <a href="#"><div class="bg-db"></div></a></li>
+            <li class="social-facebook">
+            <a href="#"><div class="bg-fb"></div></a></li>
+            <li class="social-twitter">
+            <a href="#"><div class="bg-tw"></div></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    
+    </div>
+
+    <script src="search.js"></script>
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
