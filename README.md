@@ -18,9 +18,10 @@
 ## 📖 Table of Contents
 - [📖 Table of Contents](#-table-of-contents)
 - [📍 Overview](#-overview)
-- [📂 repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
-- [🛣 Roadmap](#-roadmap)
+- [📂 Repository Structure](#-repository-structure)
+- [⚙️ Modules](#-modules)
+- [🔧 Installation](#-installation)
+- [🤖 Running](#-running)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -94,7 +95,7 @@ git clone https://github.com/matix7290/rwd
 cd rwd
 ```
 
-### 🤖 Running rwd
+### 🤖 Running
 
 ```sh
 open index.html
@@ -148,3 +149,4 @@ This project is protected under the [MIT License](https://choosealicense.com/lic
 [**Return**](#Top)
 
 ---
+
