@@ -2,15 +2,10 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 <br>RWD</h1>
-<h3>◦ rwd: Revolutionizing Web Development, One Code at a Time!</h3>
-<h3>◦ Developed with the software and tools below.</h3>
-
-<p align="left">
+<p align="center">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=white" alt="JavaScript" />
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat-square&logo=HTML5&logoColor=white" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-<p align="left">
 <img src="https://img.shields.io/github/license/matix7290/rwd?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/matix7290/rwd?style=flat-square&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/matix7290/rwd?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
